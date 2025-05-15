@@ -1,0 +1,85 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+@model PersonalExpenseTracker.Models.TransactionSummaryViewModel
+
+@{
+    ViewBag.Title = "Summary";
+}
+
+<h2>Transaction Summary</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Total Income</th>
+        <td>@Model.TotalIncome.ToString("C")</td>
+    </tr>
+    <tr>
+        <th>Total Expense</th>
+        <td>@Model.TotalExpense.ToString("C")</td>
+    </tr>
+    <tr>
+        <th>Balance</th>
+       @*  <td>@(Model.TotalIncome - Model.TotalExpense).ToString("C")</td> *@
+        @{
+            var balance = (Model.TotalIncome - Model.TotalExpense).ToString("C");
+        }
+        <td>@balance</td>
+    </tr>
+</table>
+
+<p>
+    <a href="@Url.Action("Index", "Transaction")" class="btn btn-secondary">Back to Transactions</a>
+</p>
+
+<hr />
+
+<h3>Monthly Income vs Expense Chart</h3>
+<canvas id="monthlyChart" width="800" height="400"></canvas>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        // Replace with actual values from your controller or ViewModel
+        const labels = @Html.Raw(Json.Serialize(ViewBag.MonthlyLabels)); // ["2025-01", "2025-02", ...]
+        const incomeData = @Html.Raw(Json.Serialize(ViewBag.MonthlyIncome)); // [1000, 1200, ...]
+        const expenseData = @Html.Raw(Json.Serialize(ViewBag.MonthlyExpense)); // [500, 800, ...]
+
+        const ctx = document.getElementById('monthlyChart').getContext('2d');
+        const chart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: labels,
+                datasets: [
+                    {
+                        label: 'Income',
+                        backgroundColor: 'rgba(54, 162, 235, 0.6)',
+                        data: incomeData
+                    },
+                    {
+                        label: 'Expense',
+                        backgroundColor: 'rgba(255, 99, 132, 0.6)',
+                        data: expenseData
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'top'
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+}

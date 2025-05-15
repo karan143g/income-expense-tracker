@@ -1,0 +1,178 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@* 
+@model PersonalExpenseTracker.Models.Transaction
+
+@{
+    ViewBag.Title = "Add Transaction";
+    var categories = ViewBag.Categories as List<PersonalExpenseTracker.Models.Category>;
+}
+
+
+<h2>Add Transaction</h2>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label>Amount</label>
+        <input asp-for="Amount" type="number" class="form-control" required />
+    </div>
+
+    <div>
+        <label>Type</label>
+        <select id="typeSelect" name="Type" asp-for="Type" class="form-control" required>
+            <option value="">-- Select Type --</option>
+            <option value="Income">Income</option>
+            <option value="Expense">Expense</option>
+        </select>
+    </div>
+
+    <div>
+        <label>Category</label>
+        <select id="categorySelect" name="CategoryId" class="form-control" required>
+            <option value="">-- Select Category --</option>
+            @foreach (var cat in categories.Where(c => c.Type == "Income"))  // initial load fallback
+            {
+                <option value="@cat.CategoryId">@cat.Name</option>
+            }
+        </select>
+    </div>
+
+    <div>
+        <label>Description</label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+    </div>
+
+    <div>
+        <label>Date</label>
+        <input asp-for="TransactionDate" type="date" class="form-control" required />
+    </div>
+    <br />
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $('#typeSelect').on('change', function () {
+            var selectedType = $(this).val();
+            if (selectedType) {
+                $.ajax({
+                    url: '/Transaction/GetCategoriesByType',
+                    type: 'GET',
+                    data: { type: selectedType },
+                    success: function (data) {
+                        var $categorySelect = $('#categorySelect');
+                        $categorySelect.empty();
+                        $categorySelect.append('<option value="">-- Select Category --</option>');
+                        $.each(data, function (i, category) {
+                            $categorySelect.append('<option value="' + category.categoryId + '">' + category.name + '</option>');
+                        });
+                    }
+                });
+            } else {
+                $('#categorySelect').empty().append('<option value="">-- Select Category --</option>');
+            }
+        });
+    </script>
+}
+ *@
+
+
+ @model PersonalExpenseTracker.Models.Transaction
+
+@{
+    ViewBag.Title = "Add Transaction";
+    var categories = ViewBag.Categories as List<PersonalExpenseTracker.Models.Category>;
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-sm border-0">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">Add Transaction</h4>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Create" method="post">
+                        <div class="mb-3">
+                            <label asp-for="Amount" class="form-label">Amount</label>
+                            <input asp-for="Amount" type="number" class="form-control" required />
+                            <span asp-validation-for="Amount" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Type" class="form-label">Type</label>
+                            <select id="typeSelect" name="Type" asp-for="Type" class="form-select" required>
+                                <option value="">-- Select Type --</option>
+                                <option value="Income">Income</option>
+                                <option value="Expense">Expense</option>
+                            </select>
+                            <span asp-validation-for="Type" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="CategoryId" class="form-label">Category</label>
+                            <select id="categorySelect" name="CategoryId" class="form-select" required>
+                                <option value="">-- Select Category --</option>
+                                @foreach (var cat in categories)
+                                {
+                                    <option value="@cat.CategoryId">@cat.Name</option>
+                                }
+                            </select>
+                            <span asp-validation-for="CategoryId" class="text-danger"></span>
+
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Description" class="form-label">Description</label>
+                            <textarea asp-for="Description" class="form-control" rows="3"></textarea>
+                            <span asp-validation-for="Description" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="TransactionDate" class="form-label">Date</label>
+                            <input asp-for="TransactionDate" type="date" class="form-control" required />
+                            <span asp-validation-for="TransactionDate" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-flex justify-content-between">
+                            <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+                            <button type="submit" class="btn btn-primary">Save Transaction</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $('#typeSelect').on('change', function () {
+            var selectedType = $(this).val();
+            if (selectedType) {
+                $.ajax({
+                    url: '/Transaction/GetCategoriesByType',
+                    type: 'GET',
+                    data: { type: selectedType },
+                    success: function (data) {
+                        var $categorySelect = $('#categorySelect');
+                        $categorySelect.empty();
+                        $categorySelect.append('<option value="">-- Select Category --</option>');
+                        $.each(data, function (i, category) {
+                            $categorySelect.append('<option value="' + category.categoryId + '">' + category.name + '</option>');
+                        });
+                    }
+                });
+            } else {
+                $('#categorySelect').empty().append('<option value="">-- Select Category --</option>');
+            }
+        });
+    </script>
+}

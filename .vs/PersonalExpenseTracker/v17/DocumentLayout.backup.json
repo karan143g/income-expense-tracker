@@ -1,0 +1,243 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PersonalExpenseTracker\\PersonalExpenseTracker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6B542955-140D-46CB-8ECE-A901BAD9DABE}|PersonalExpenseTracker\\PersonalExpenseTracker.csproj|d:\\personalexpensetracker\\personalexpensetracker\\personalexpensetracker\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B542955-140D-46CB-8ECE-A901BAD9DABE}|PersonalExpenseTracker\\PersonalExpenseTracker.csproj|solutionrelative:personalexpensetracker\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B542955-140D-46CB-8ECE-A901BAD9DABE}|PersonalExpenseTracker\\PersonalExpenseTracker.csproj|d:\\personalexpensetracker\\personalexpensetracker\\personalexpensetracker\\views\\transaction\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B542955-140D-46CB-8ECE-A901BAD9DABE}|PersonalExpenseTracker\\PersonalExpenseTracker.csproj|solutionrelative:personalexpensetracker\\views\\transaction\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B542955-140D-46CB-8ECE-A901BAD9DABE}|PersonalExpenseTracker\\PersonalExpenseTracker.csproj|d:\\personalexpensetracker\\personalexpensetracker\\personalexpensetracker\\models\\monthlysummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B542955-140D-46CB-8ECE-A901BAD9DABE}|PersonalExpenseTracker\\PersonalExpenseTracker.csproj|solutionrelative:personalexpensetracker\\models\\monthlysummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B542955-140D-46CB-8ECE-A901BAD9DABE}|PersonalExpenseTracker\\PersonalExpenseTracker.csproj|d:\\personalexpensetracker\\personalexpensetracker\\personalexpensetracker\\views\\transaction\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B542955-140D-46CB-8ECE-A901BAD9DABE}|PersonalExpenseTracker\\PersonalExpenseTracker.csproj|solutionrelative:personalexpensetracker\\views\\transaction\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B542955-140D-46CB-8ECE-A901BAD9DABE}|PersonalExpenseTracker\\PersonalExpenseTracker.csproj|d:\\personalexpensetracker\\personalexpensetracker\\personalexpensetracker\\views\\transaction\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B542955-140D-46CB-8ECE-A901BAD9DABE}|PersonalExpenseTracker\\PersonalExpenseTracker.csproj|solutionrelative:personalexpensetracker\\views\\transaction\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B542955-140D-46CB-8ECE-A901BAD9DABE}|PersonalExpenseTracker\\PersonalExpenseTracker.csproj|d:\\personalexpensetracker\\personalexpensetracker\\personalexpensetracker\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B542955-140D-46CB-8ECE-A901BAD9DABE}|PersonalExpenseTracker\\PersonalExpenseTracker.csproj|solutionrelative:personalexpensetracker\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B542955-140D-46CB-8ECE-A901BAD9DABE}|PersonalExpenseTracker\\PersonalExpenseTracker.csproj|d:\\personalexpensetracker\\personalexpensetracker\\personalexpensetracker\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B542955-140D-46CB-8ECE-A901BAD9DABE}|PersonalExpenseTracker\\PersonalExpenseTracker.csproj|solutionrelative:personalexpensetracker\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B542955-140D-46CB-8ECE-A901BAD9DABE}|PersonalExpenseTracker\\PersonalExpenseTracker.csproj|d:\\personalexpensetracker\\personalexpensetracker\\personalexpensetracker\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B542955-140D-46CB-8ECE-A901BAD9DABE}|PersonalExpenseTracker\\PersonalExpenseTracker.csproj|solutionrelative:personalexpensetracker\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B542955-140D-46CB-8ECE-A901BAD9DABE}|PersonalExpenseTracker\\PersonalExpenseTracker.csproj|d:\\personalexpensetracker\\personalexpensetracker\\personalexpensetracker\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B542955-140D-46CB-8ECE-A901BAD9DABE}|PersonalExpenseTracker\\PersonalExpenseTracker.csproj|solutionrelative:personalexpensetracker\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B542955-140D-46CB-8ECE-A901BAD9DABE}|PersonalExpenseTracker\\PersonalExpenseTracker.csproj|d:\\personalexpensetracker\\personalexpensetracker\\personalexpensetracker\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B542955-140D-46CB-8ECE-A901BAD9DABE}|PersonalExpenseTracker\\PersonalExpenseTracker.csproj|solutionrelative:personalexpensetracker\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B542955-140D-46CB-8ECE-A901BAD9DABE}|PersonalExpenseTracker\\PersonalExpenseTracker.csproj|d:\\personalexpensetracker\\personalexpensetracker\\personalexpensetracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B542955-140D-46CB-8ECE-A901BAD9DABE}|PersonalExpenseTracker\\PersonalExpenseTracker.csproj|solutionrelative:personalexpensetracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B542955-140D-46CB-8ECE-A901BAD9DABE}|PersonalExpenseTracker\\PersonalExpenseTracker.csproj|d:\\personalexpensetracker\\personalexpensetracker\\personalexpensetracker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6B542955-140D-46CB-8ECE-A901BAD9DABE}|PersonalExpenseTracker\\PersonalExpenseTracker.csproj|solutionrelative:personalexpensetracker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B542955-140D-46CB-8ECE-A901BAD9DABE}|PersonalExpenseTracker\\PersonalExpenseTracker.csproj|d:\\personalexpensetracker\\personalexpensetracker\\personalexpensetracker\\models\\transactionsummaryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B542955-140D-46CB-8ECE-A901BAD9DABE}|PersonalExpenseTracker\\PersonalExpenseTracker.csproj|solutionrelative:personalexpensetracker\\models\\transactionsummaryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\PersonalExpenseTracker\\PersonalExpenseTracker\\PersonalExpenseTracker\\appsettings.json",
+              "RelativeDocumentMoniker": "PersonalExpenseTracker\\appsettings.json",
+              "ToolTip": "D:\\PersonalExpenseTracker\\PersonalExpenseTracker\\PersonalExpenseTracker\\appsettings.json",
+              "RelativeToolTip": "PersonalExpenseTracker\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-12T17:37:10.192Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\PersonalExpenseTracker\\PersonalExpenseTracker\\PersonalExpenseTracker\\Views\\Transaction\\Index.cshtml",
+              "RelativeDocumentMoniker": "PersonalExpenseTracker\\Views\\Transaction\\Index.cshtml",
+              "ToolTip": "D:\\PersonalExpenseTracker\\PersonalExpenseTracker\\PersonalExpenseTracker\\Views\\Transaction\\Index.cshtml",
+              "RelativeToolTip": "PersonalExpenseTracker\\Views\\Transaction\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T17:58:03.857Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\PersonalExpenseTracker\\PersonalExpenseTracker\\PersonalExpenseTracker\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "PersonalExpenseTracker\\Models\\Category.cs",
+              "ToolTip": "D:\\PersonalExpenseTracker\\PersonalExpenseTracker\\PersonalExpenseTracker\\Models\\Category.cs",
+              "RelativeToolTip": "PersonalExpenseTracker\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T17:46:17.753Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "D:\\PersonalExpenseTracker\\PersonalExpenseTracker\\PersonalExpenseTracker\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "PersonalExpenseTracker\\Models\\Transaction.cs",
+              "ToolTip": "D:\\PersonalExpenseTracker\\PersonalExpenseTracker\\PersonalExpenseTracker\\Models\\Transaction.cs",
+              "RelativeToolTip": "PersonalExpenseTracker\\Models\\Transaction.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T17:47:02.491Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "D:\\PersonalExpenseTracker\\PersonalExpenseTracker\\PersonalExpenseTracker\\Controllers\\TransactionController.cs",
+              "RelativeDocumentMoniker": "PersonalExpenseTracker\\Controllers\\TransactionController.cs",
+              "ToolTip": "D:\\PersonalExpenseTracker\\PersonalExpenseTracker\\PersonalExpenseTracker\\Controllers\\TransactionController.cs",
+              "RelativeToolTip": "PersonalExpenseTracker\\Controllers\\TransactionController.cs",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAwwMEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T17:41:54.353Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MonthlySummary.cs",
+              "DocumentMoniker": "D:\\PersonalExpenseTracker\\PersonalExpenseTracker\\PersonalExpenseTracker\\Models\\MonthlySummary.cs",
+              "RelativeDocumentMoniker": "PersonalExpenseTracker\\Models\\MonthlySummary.cs",
+              "ToolTip": "D:\\PersonalExpenseTracker\\PersonalExpenseTracker\\PersonalExpenseTracker\\Models\\MonthlySummary.cs",
+              "RelativeToolTip": "PersonalExpenseTracker\\Models\\MonthlySummary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T18:44:05.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\PersonalExpenseTracker\\PersonalExpenseTracker\\PersonalExpenseTracker\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PersonalExpenseTracker\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\PersonalExpenseTracker\\PersonalExpenseTracker\\PersonalExpenseTracker\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PersonalExpenseTracker\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAE4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T17:38:33.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Summary.cshtml",
+              "DocumentMoniker": "D:\\PersonalExpenseTracker\\PersonalExpenseTracker\\PersonalExpenseTracker\\Views\\Transaction\\Summary.cshtml",
+              "RelativeDocumentMoniker": "PersonalExpenseTracker\\Views\\Transaction\\Summary.cshtml",
+              "ToolTip": "D:\\PersonalExpenseTracker\\PersonalExpenseTracker\\PersonalExpenseTracker\\Views\\Transaction\\Summary.cshtml",
+              "RelativeToolTip": "PersonalExpenseTracker\\Views\\Transaction\\Summary.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAACsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T18:25:45.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\PersonalExpenseTracker\\PersonalExpenseTracker\\PersonalExpenseTracker\\Views\\Transaction\\Create.cshtml",
+              "RelativeDocumentMoniker": "PersonalExpenseTracker\\Views\\Transaction\\Create.cshtml",
+              "ToolTip": "D:\\PersonalExpenseTracker\\PersonalExpenseTracker\\PersonalExpenseTracker\\Views\\Transaction\\Create.cshtml",
+              "RelativeToolTip": "PersonalExpenseTracker\\Views\\Transaction\\Create.cshtml",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAswF0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T18:09:27.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\PersonalExpenseTracker\\PersonalExpenseTracker\\PersonalExpenseTracker\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "PersonalExpenseTracker\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\PersonalExpenseTracker\\PersonalExpenseTracker\\PersonalExpenseTracker\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "PersonalExpenseTracker\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T17:46:31.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\PersonalExpenseTracker\\PersonalExpenseTracker\\PersonalExpenseTracker\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PersonalExpenseTracker\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\PersonalExpenseTracker\\PersonalExpenseTracker\\PersonalExpenseTracker\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PersonalExpenseTracker\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T18:30:10.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PersonalExpenseTracker\\PersonalExpenseTracker\\PersonalExpenseTracker\\Program.cs",
+              "RelativeDocumentMoniker": "PersonalExpenseTracker\\Program.cs",
+              "ToolTip": "D:\\PersonalExpenseTracker\\PersonalExpenseTracker\\PersonalExpenseTracker\\Program.cs",
+              "RelativeToolTip": "PersonalExpenseTracker\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAwwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T18:33:45.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TransactionSummaryViewModel.cs",
+              "DocumentMoniker": "D:\\PersonalExpenseTracker\\PersonalExpenseTracker\\PersonalExpenseTracker\\Models\\TransactionSummaryViewModel.cs",
+              "RelativeDocumentMoniker": "PersonalExpenseTracker\\Models\\TransactionSummaryViewModel.cs",
+              "ToolTip": "D:\\PersonalExpenseTracker\\PersonalExpenseTracker\\PersonalExpenseTracker\\Models\\TransactionSummaryViewModel.cs",
+              "RelativeToolTip": "PersonalExpenseTracker\\Models\\TransactionSummaryViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T18:21:55.672Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
