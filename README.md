@@ -1,8 +1,8 @@
-# 💰 Personal Expense Tracker
+#  Personal Expense Tracker
 
 A simple full-stack MVC web application to track personal income and expenses, built with **ASP.NET Core 8 (MVC)** and **SQL Server** using **Stored Procedures** for database operations.
 
-## 📋 Features
+## Features
 
 - Add, edit, and delete transactions
 - Categorize transactions by type (Income / Expense)
@@ -11,7 +11,7 @@ A simple full-stack MVC web application to track personal income and expenses, b
 - Monthly income vs. expense bar chart using Chart.js
 - Responsive UI styled with Bootstrap
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - ASP.NET Core 8 MVC
 - SQL Server (with Stored Procedures)
@@ -19,7 +19,7 @@ A simple full-stack MVC web application to track personal income and expenses, b
 - jQuery (for dynamic category filtering)
 - Chart.js (for data visualization)
 
-## 📂 Project Structure
+## Project Structure
 
 - `Controllers/` – MVC Controllers (TransactionController)
 - `Models/` – Transaction, Category, Summary ViewModels
@@ -27,7 +27,7 @@ A simple full-stack MVC web application to track personal income and expenses, b
 - `wwwroot/` – Static files (CSS, JS, etc.)
 - `appsettings.json` – Connection strings and configs
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 1. **Clone the repository**
 
